@@ -53,7 +53,7 @@ module Cypress
       end
 
       def handle_scenario(req)
-        handle_setup(req)
+        # handle_setup(req)
 
         @scenario_bank = ScenarioBank.new
         @scenario_bank.load
